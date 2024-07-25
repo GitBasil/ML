@@ -1,17 +1,22 @@
-## dependent vs independent
+## Sigmoid Function vs. Gradient Descent
 
-```
-y = 2x + 5
+Sigmoid Function is used to convert the result of the regression to a value between 0 and 1
+Gradient Descent is used to enhance the coefficients to give better performance when we predict
 
-x is the independent variable
-y is the dependent variable
-y = 2x + 5 is a linear equation
-if x = 2 then y = 9
-```
+## Gradient Descent
 
-the concept of regression is to drive this equation from the data in order to predict the unseen data
+Learning rate (alpha in logistic regression) is how big is the step to make each time
 
-## linear regression vs Polynomial Regression
+## Accuracy
 
-**linear regression**: the features are coming from the dataset except for the bias features
-**Polynomial Regression**: we add more features as demanded to the power of the degree we choose, ex. if the degree is 4 then you need to add 3 more features which is the x^2,x^3,x^4
+- TP = True Positives (correctly predicted positive class)
+- TN = True Negatives (correctly predicted negative class)
+- FP = False Positives (incorrectly predicted as positive class)
+- FN = False Negatives (incorrectly predicted as negative class)
+  ![alt text](image-2.png)
+
+## Precision vs Recall
+
+Recall is preferred when you try to correctly predict as many as you can, ex. firewall with hacking request, in this case recall is better because false predicting that a request is hacking request is much worst than not predicting an actual hacking request.
+
+Precision is preferred when false alarms are very dangerous, so we prefer Precision to reduce the false alarms.
