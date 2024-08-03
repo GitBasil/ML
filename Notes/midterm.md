@@ -21,7 +21,7 @@ Utilize prediction models or KNN when missingness is systematic and patterns can
 
 ### Normalization
 
-Normalization rescales the features to a range, typically [0, 1] or [-1, 1]. X normalized = (X − X min) / (X max − X min).
+Normalization rescales the features to a range, typically [0, 1]. X normalized = (X − X min) / (X max − X min).
 ​Choose normalization if your data is not normally distributed and you have algorithms that are sensitive to the scale of features, such as k-NN or when the feature values need to be in a specific range for some reason.
 
 ### Standardization
