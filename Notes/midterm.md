@@ -150,8 +150,20 @@ Sigmoid (activation function) is used to convert the value to a value between 0 
 Recall is preferred when you try to correctly predict as many as you can, ex. firewall with hacking request, in this case recall is better because false predicting that a request is hacking request is much worst than not predicting an actual hacking request.
 𝑇𝑃 / 𝑇𝑃 + 𝐹N
 
+Recall: Measures the ability to identify all relevant instances within a dataset.
+Example: In disease screening, high recall ensures that as many diseased patients as possible are correctly identified.
+
 Precision is preferred when false alarms are very dangerous, so we prefer Precision to reduce the false alarms.
 𝑇𝑃 / 𝑇𝑃 + 𝐹𝑃
+
+Precision: Measures the accuracy of positive predictions.
+Example: In email filtering, high precision minimizes the risk of important emails being incorrectly filtered as spam.
+
+Importance:
+Precision is crucial when the cost of false positives is high.
+Recall is essential when missing a positive case has serious consequences.
+
+The F1 Score balances precision and recall, providing a comprehensive evaluation.
 
 F1 Score is a mix of recall and precision
 
