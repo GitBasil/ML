@@ -1,6 +1,6 @@
 ## Voting
 
-Voting Classifier will predict all the test data using th voting of all of the models, that's why it;s scoring .96 her and 1 in the prev
+Voting Classifier will predict all the test data using the voting of all of the models, that's why its scoring .96 her and 1 in the prev
 
 ## bagging vs pasting
 
