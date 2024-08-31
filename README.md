@@ -1,1 +1,1 @@
-# CS582	Machine Learning
+# CS582 Machine Learning
